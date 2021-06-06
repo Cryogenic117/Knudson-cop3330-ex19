@@ -20,7 +20,7 @@ public class App
         bmi = (weight /(height*height)) * 703;
 
         System.out.printf("You BMI is %.1f.", bmi);
-        if(bmi >= 18.5 || bmi <= 25)
+        if(bmi >= 18.5 && bmi <= 25)
             System.out.print("You are within the ideal weight range.");
         if(bmi > 25)
             System.out.print("You are overweight. You should see your doctor.");
